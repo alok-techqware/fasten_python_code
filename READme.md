@@ -24,7 +24,7 @@
     > Unlike the map() and filter() functions, the reduce() is not a built-in function in Python. The reduce() function belongs to the functools module.
     > Steps of how to reduce function work in python
         - The function passed as an argument is applied to the first two elements of the iterable.
-> After this, the function is applied to the previously generated result and the next element in the iterable.
+    > After this, the function is applied to the previously generated result and the next element in the iterable.
         - This process continues until all of the iterable items are iterated.
         - A single value is returned as a result of applying the reduce function on the iterable.
     > Let’s understand the steps with an illustration:
